@@ -4,8 +4,11 @@ VLSI_Project
 Digital frequency meter
 
 Input pins:
--reference clock (probably 50MHz crystal);
+-external clock (probably 50MHz crystal);
 -signal to be measured;
 
 Output pins:
 -control for the 7-segment displays;
+
+Outline:
+From the external clock, two internal clocks are generated: a 1Hz clock, and a reference clock (variable frequency, scales the measurement). The measurements are performed every second, when the counter is enabled for the time between two ref_clock pulses. If the counter overflows, the reference clock frequency is decreased by a factor of 10. If the most significant digit is 0, the reference clock frequency is increased by a factor of 10 (with upper and lower boundaries, of course).
