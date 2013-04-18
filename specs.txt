@@ -1,0 +1,11 @@
+VLSI_Project
+============
+
+Digital frequency meter
+
+Input pins:
+-reference clock (probably 50MHz crystal);
+-signal to be measured;
+
+Output pins:
+-control for the 7-segment displays;
