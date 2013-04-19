@@ -13,6 +13,6 @@ Output pins:
 Outline:
 The external clock (50MHz) generates two clocks: a 1 Hz clock — that sets the beginning of a reading — and a reference clock — that changes accordingly to the scale needed to sample the input wave.
 
-From those clocks, a enable signal (that will turn the counter on) is generated every "reference" pulse and remains 1 until the next "reference" pulse is generated. As the counter is on, it will receive the input wave (measured wave) and increment at every period.
+From those clocks, a enable signal (that will turn the counter on) is generated every "reference" pulse and remains 1 until the next "reference" pulse is generated. As the counter is on, it will receive the input wave (measured wave) and increment at every period. It is important to notice that this enable signal will only occur once every second, being controlled by the 1Hz clock. In a nutshell, the 1Hz clock "triggers" the counter and the reference clock establishes the sampling duration.
 
 In case there is an overflow, the counter will signal it to the Scale Adjustment Unit and change the reference clock, so there's a smaller sample time. This will allow the counter not to overflow anymore. Also, this unit will represent in a 7-segment display that the scale changed (probably representing the number in a "XXXXEYY" format, i.e. 500kHz = 0500E3).
