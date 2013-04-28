@@ -1,0 +1,29 @@
+Pick a task and write your name there. Update the status as you progress
+
+Task: test two-phase non-overlapping clock generators
+Person in charge: -
+Status: not started
+
+Task: build bcd counter from counters and test it
+Person in charge: -
+Status: not started
+
+Task: build frequency dividers from counters (factors of 25, 250, 2500, 25000, 250000 and 25000000) and test them
+Person in charge: -
+Status: not started
+
+Task: build and test counter controller unit
+Person in charge: -
+Status: not started
+
+Task: build 7-segment decoder using a lookup table and test it
+Person in charge: -
+Status: not started
+
+Task: build scale adjustment unit using a lookup table and test it
+Person in charge: -
+Status: not started
+
+Task: put everything together and test it
+Person in charge: -
+Status: not started
