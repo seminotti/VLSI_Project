@@ -1,4 +1,4 @@
-Pick a task and write your name there. Update the status as you progress
+ Pick a task and write your name there. Update the status as you progress
 
 Task: test two-phase non-overlapping clock generators
 Person in charge: -
@@ -17,8 +17,8 @@ Person in charge: -
 Status: not started
 
 Task: build 7-segment decoder using a lookup table and test it
-Person in charge: -
-Status: not started
+Person in charge: Mael
+Status: Writing truth table for LUT
 
 Task: build scale adjustment unit using a lookup table and test it
 Person in charge: -
