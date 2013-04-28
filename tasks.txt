@@ -5,8 +5,8 @@ Person in charge: -
 Status: not started
 
 Task: build bcd counter from counters and test it
-Person in charge: -
-Status: not started
+Person in charge: Lucas
+Status: understanding the counter_3_12
 
 Task: build frequency dividers from counters (factors of 25, 250, 2500, 25000, 250000 and 25000000) and test them
 Person in charge: -
