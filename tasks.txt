@@ -1,9 +1,5 @@
  Pick a task and write your name there. Update the status as you progress
 
-Task: test two-phase non-overlapping clock generators
-Person in charge: -
-Status: not started
-
 Task: build bcd counter from counters and test it
 Person in charge: Lucas
 Status: understanding the counter_3_12
