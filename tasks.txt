@@ -21,8 +21,8 @@ Person in charge: Mael
 Status: Completed (successful simulation)
 
 Task: build scale adjustment unit using a lookup table and test it
-Person in charge: -
-Status: not started
+Person in charge: Mael
+Status: basic layout complete (will test it soon) (latches still to be added along with other output?)
 
 Task: put everything together and test it
 Person in charge: -
