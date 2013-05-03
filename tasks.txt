@@ -18,11 +18,11 @@ Status: working on the MUX
 
 Task: build 7-segment decoder using a lookup table and test it
 Person in charge: Mael
-Status: Completed (successful simulation)
+Status: Completed
 
 Task: build scale adjustment unit using a lookup table and test it
 Person in charge: Mael
-Status: basic layout complete (will test it soon) (latches still to be added along with other output?)
+Status: Completed
 
 Task: put everything together and test it
 Person in charge: -
