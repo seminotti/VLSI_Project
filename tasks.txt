@@ -5,12 +5,12 @@ Person in charge: Lucas
 Status: Finished
 
 Task: put three bcd counters together, generating output flags for overflow and msd=0
-Person in charge: -
-Status: not started
+Person in charge: Guilherme
+Status: just started
 
 Task: build frequency dividers from counters (factors of 25, 250, 2500, 25000, 250000 and 25000000) and test them
 Person in charge: Guilherme
-Status: first 3 completed and tested, 3 more to go
+Status: completed and tested (after over 2 hours of simulation for the last one...)
 
 Task: build and test counter controller unit
 Person in charge: Lucas
